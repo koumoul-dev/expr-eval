@@ -1,6 +1,6 @@
 {
   "name": "@koumoul/expr-eval",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Mathematical expression evaluator fork with exports map, prototype pollution and code injection security fixes",
   "main": "dist/bundle.js",
   "module": "dist/index.mjs",
