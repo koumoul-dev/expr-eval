@@ -1,13 +1,12 @@
 JavaScript Expression Evaluator
 ===============================
 
-[![npm](https://img.shields.io/npm/v/expr-eval-fork.svg?maxAge=3600)](https://www.npmjs.com/package/expr-eval-fork)
-[![CDNJS version](https://img.shields.io/cdnjs/v/expr-eval-fork.svg?maxAge=3600)](https://cdnjs.com/libraries/expr-eval-fork)
-[![Build Status](https://travis-ci.org/silentmatt/expr-eval-fork.svg?branch=master)](https://travis-ci.org/silentmatt/expr-eval-fork)
+[![npm](https://img.shields.io/npm/v/@koumoul/expr-eval.svg?maxAge=3600)](https://www.npmjs.com/package/@koumoul/expr-eval)
 
-> This fork addresses https://github.com/silentmatt/expr-eval/issues/266, security fix has been committed but was never released to NPM
-> Therefore, we publish expr-eval-fork to NPM to work around this issue.
-> If expr-eval ever gets released, raise an issue and we'll deprecate this fork.
+> `@koumoul/expr-eval` is maintained by [Koumoul](https://github.com/koumoul-dev). It is based on
+> [expr-eval-fork](https://github.com/jorenbroekema/expr-eval), which publishes the unreleased fixes of
+> [expr-eval](https://github.com/silentmatt/expr-eval) along with security fixes (CVE-2025-12735).
+> On top of it, `@koumoul/expr-eval` fixes expressions that define several functions.
 
 Description
 -------------------------------------
@@ -23,12 +22,12 @@ directly, or compiled into native JavaScript functions.
 Installation
 -------------------------------------
 
-    npm install expr-eval
+    npm install @koumoul/expr-eval
 
 Basic Usage
 -------------------------------------
 ```js
-    const Parser = require('expr-eval').Parser;
+    const Parser = require('@koumoul/expr-eval').Parser;
 
     const parser = new Parser();
     let expr = parser.parse('2 * x + 1');

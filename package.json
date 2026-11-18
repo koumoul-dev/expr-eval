@@ -45,7 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorenbroekema/expr-eval.git"
+    "url": "git+https://github.com/koumoul-dev/expr-eval.git"
   },
   "keywords": [
     "expression",
@@ -58,7 +58,10 @@
   "author": "Joren Broekema",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jorenbroekema/expr-eval/issues"
+    "url": "https://github.com/koumoul-dev/expr-eval/issues"
   },
-  "homepage": "https://github.com/jorenbroekema/expr-eval#readme"
+  "homepage": "https://github.com/koumoul-dev/expr-eval#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
